@@ -1,0 +1,14 @@
+Salut ! pour mettre les armes permanante dans la boutique tu as juste à suivre ce tutoriel :
+
+1- Ajouter le script esx_armeitem
+
+2- importe les armes que tu souhaite mettre dans la boutique dans ton php ( via le sql de esx_armeitem )
+
+3- Va dans le config de la boutique remplace les modèles d'arme par l'item (exemple : weapon_knife par knife) (nom des armes item dans le config de esx_armitem)
+
+4- va dans le côté serveur de la boutique (ligne 115) remplace xPlayer.addWeapon(w, 100) par xPlayer.addInventoryItem(w, 1)
+
+Enjoy !!
+
+
+discord : https://discord.gg/pRXCnA8
